@@ -14,7 +14,7 @@ const logoSize = computed(() => {
 <template>
 	<div class="content-container">
 		<img src="/logo.svg" alt="Logo" :width="logoSize" :height="logoSize" />
-		<nav>
+		<nav v-if="!isMobile">
 			<ul>
 				<li><a href="#home">Home</a></li>
 				<li><a href="#projects">Projects</a></li>
