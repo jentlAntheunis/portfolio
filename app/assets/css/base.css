@@ -1,0 +1,20 @@
+:root {
+    --c-gray-light: #eee;
+    --c-blue-light: #6994DD;
+    --c-blue-dark: #466DD0;
+
+    --color-background: var(--c-gray-light);
+    --color-text: #000;
+    
+    --color-primary: var(--c-blue-dark);
+    --color-primary-light: var(--c-blue-light);
+
+    --bp-small: 48rem; /* tablet */
+    --bp-medium: 64rem; /* desktop */
+    --bp-large: 80rem; /* large desktop */
+
+    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    --content-max: 72rem;
+    --content-gutter: 1rem;
+}
