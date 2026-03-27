@@ -3,9 +3,6 @@
     --c-blue-light: #6994DD;
     --c-blue-dark: #466DD0;
 
-    --color-background: var(--c-gray-light);
-    --color-text: #000;
-    
     --color-primary: var(--c-blue-dark);
     --color-primary-light: var(--c-blue-light);
 
@@ -17,4 +14,15 @@
 
     --content-max: 72rem;
     --content-gutter: 1rem;
+}
+
+html {
+    --color-background: var(--c-gray-light);
+    --color-text: #000;
+}
+
+
+html.dark {
+    --color-background: #222;
+    --color-text: #eee;
 }

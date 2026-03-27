@@ -1,19 +1,9 @@
 <script setup lang="ts">
-import { computed } from "vue";
-
-const { ready, isMobile } = useViewport();
-
-const logoSize = computed(() => {
-	if (!ready.value) {
-		return 40;
-	}
-
-	return isMobile.value ? 40 : 48;
-});
+const { isMobile } = useViewport();
 </script>
 <template>
 	<div class="content-container">
-		<img src="/logo.svg" alt="Logo" :width="logoSize" :height="logoSize" />
+		<Logo />
 		<nav v-if="!isMobile">
 			<ul>
 				<li><a href="#home">Home</a></li>
@@ -24,4 +14,23 @@ const logoSize = computed(() => {
 		<ColorModeSwitcher />
 	</div>
 </template>
-<style scoped></style>
+<style scoped>
+.content-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 1rem;
+}
+
+nav ul {
+	display: flex;
+	gap: 1.5rem;
+	list-style: none;
+}
+
+nav a {
+	text-decoration: none;
+	color: var(--color-text);
+	font-weight: 500;
+}
+</style>

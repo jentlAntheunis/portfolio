@@ -2,15 +2,15 @@
 @import './base.css';
 
 html {
-    font-family: var(--font-family);
-    
+  font-family: var(--font-family);
 }
 
 body {
-    background-color: var(--color-background);
-    color: var(--color-text);
-    margin: 0;
-    padding: 0;
+  background-color: var(--color-background);
+  color: var(--color-text);
+
+  margin: 0;
+  padding: 0;
 }
 
 .content-container {
