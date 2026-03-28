@@ -2,7 +2,7 @@
 const imgHeight = 500; // in pixels
 </script>
 <template>
-	<div class="content-container">
+	<div class="content-container text">
 		<p>Howest Multimedia and Creative Technologies alumni</p>
 		<p>Wide range of used languages and frameworks</p>
 		<p>Driven by curiosity and a hunger to learn</p>
@@ -17,8 +17,23 @@ const imgHeight = 500; // in pixels
 	</div>
 </template>
 <style scoped lang="scss">
-@use "@/assets/css/base.scss" as *;
+@use "@/assets/css/main.scss" as *;
 
+// text
+.text {
+	display: flex;
+	flex-direction: column;
+}
+
+.text p {
+	&:nth-child(2) {
+		align-self: flex-end;
+		text-align: right;
+		max-width: 10rem;
+	}
+}
+
+// image
 .image-container {
 	position: relative;
 

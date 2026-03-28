@@ -1,5 +1,5 @@
+@use 'scss-reset';
 @use './base.scss' as *;
-@import './normalize.css';
 
 html {
   font-family: #{$font-family};
