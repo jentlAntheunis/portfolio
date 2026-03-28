@@ -17,7 +17,7 @@ const imgHeight = 500; // in pixels
 	</div>
 </template>
 <style scoped lang="scss">
-@import "@/assets/css/base.scss";
+@use "@/assets/css/base.scss" as *;
 
 .image-container {
 	position: relative;
