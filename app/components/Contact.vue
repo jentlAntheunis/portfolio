@@ -1,5 +1,5 @@
 <script setup></script>
 <template>
-	<p>Contact</p>
+	<h4>Contact</h4>
 </template>
 <style scoped lang="scss"></style>

@@ -37,7 +37,7 @@ const imgHeight = 500; // in pixels
 }
 
 .bar {
-	background-color: var(--color-primary);
+	background-color: #{$color-primary};
 	height: 5rem;
 	width: 100%;
 

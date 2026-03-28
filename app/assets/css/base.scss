@@ -3,6 +3,9 @@ $c-gray-light: #eee;
 $c-blue-light: #6994DD;
 $c-blue-dark: #466DD0;
 
+$color-primary: $c-blue-dark;
+$color-primary-light: $c-blue-light;
+
 // Breakpoints (@media queries)
 $bp-small: 48rem;   /* tablet */
 $bp-medium: 64rem;  /* desktop */
@@ -11,30 +14,26 @@ $bp-large: 80rem;   /* large desktop */
 // Typography
 $font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+$fs-s: 1rem;
+$fs-m: 1.5rem;
+$fs-l: 2rem;
+$fs-xl: 3rem;
+$fs-xxl: 4rem;
+
+$font-size-h1: #{$fs-xl};
+$font-size-h2: #{$fs-m};
+$font-size-h3: #{$fs-xxl};
+$font-size-h4: #{$fs-l};
+$font-size-body: #{$fs-s};
+
 // Layout
 $content-max: 72rem;
 $content-gutter: 1rem;
 
-// CSS Variables for theme switching
+
+// theme switching
 :root {
-  --c-gray-light: #eee;
-  --c-blue-light: #{$c-blue-light};
-  --c-blue-dark: #{$c-blue-dark};
-
-  --color-primary: var(--c-blue-dark);
-  --color-primary-light: var(--c-blue-light);
-
-  --bp-small: #{$bp-small};
-  --bp-medium: #{$bp-medium};
-  --bp-large: #{$bp-large};
-
-  --font-family: #{$font-family};
-  --content-max: #{$content-max};
-  --content-gutter: #{$content-gutter};
-}
-
-html {
-  --color-background: var(--c-gray-light);
+  --color-background: #{$c-gray-light};
   --color-text: #000;
 }
 

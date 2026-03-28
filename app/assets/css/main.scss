@@ -1,8 +1,8 @@
-@use './base.scss';
+@use './base.scss' as *;
 @import './normalize.css';
 
 html {
-  font-family: var(--font-family);
+  font-family: #{$font-family};
 }
 
 body {
@@ -13,8 +13,30 @@ body {
   padding: 0;
 }
 
+// fonts
+h1 {
+  font-size: #{$font-size-h1};
+  font-style: italic;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: #{$font-size-h2};
+  font-weight: 650;
+}
+
+h3 {
+  font-size: #{$font-size-h3};
+  font-weight: 600;
+}
+
+h4 {
+  font-size: #{$font-size-h4};
+  font-weight: 500;
+}
+
 .content-container {
-  width: min(100% - (2 * var(--content-gutter)), var(--content-max));
+  width: min(100% - (2 * #{$content-gutter}), #{$content-max});
   margin-inline: auto;
 }
 
