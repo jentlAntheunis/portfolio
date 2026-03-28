@@ -14,7 +14,9 @@ const { isMobile } = useViewport();
 		<ColorModeSwitcher />
 	</div>
 </template>
-<style scoped>
+<style scoped lang="scss">
+@import "@/assets/css/base.scss";
+
 .content-container {
 	display: flex;
 	align-items: center;

@@ -127,7 +127,7 @@ const logoSize = computed(() => {
 		</defs>
 	</svg>
 </template>
-<style scoped>
+<style scoped lang="scss">
 .logo {
 	display: block;
 }

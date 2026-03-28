@@ -2,4 +2,4 @@
 <template>
 	<p>Logo Carousel</p>
 </template>
-<style scoped></style>
+<style scoped lang="scss"></style>

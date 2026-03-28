@@ -1,0 +1,44 @@
+// Color primitives
+$c-gray-light: #eee;
+$c-blue-light: #6994DD;
+$c-blue-dark: #466DD0;
+
+// Breakpoints (@media queries)
+$bp-small: 48rem;   /* tablet */
+$bp-medium: 64rem;  /* desktop */
+$bp-large: 80rem;   /* large desktop */
+
+// Typography
+$font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+// Layout
+$content-max: 72rem;
+$content-gutter: 1rem;
+
+// CSS Variables for theme switching
+:root {
+  --c-gray-light: #eee;
+  --c-blue-light: #{$c-blue-light};
+  --c-blue-dark: #{$c-blue-dark};
+
+  --color-primary: var(--c-blue-dark);
+  --color-primary-light: var(--c-blue-light);
+
+  --bp-small: #{$bp-small};
+  --bp-medium: #{$bp-medium};
+  --bp-large: #{$bp-large};
+
+  --font-family: #{$font-family};
+  --content-max: #{$content-max};
+  --content-gutter: #{$content-gutter};
+}
+
+html {
+  --color-background: var(--c-gray-light);
+  --color-text: #000;
+}
+
+html.dark {
+  --color-background: #222;
+  --color-text: #eee;
+}

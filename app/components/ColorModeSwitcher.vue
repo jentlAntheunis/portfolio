@@ -11,4 +11,4 @@ const toggleColorMode = () => {
 <template>
 	<button @click="toggleColorMode">Toggle Color Mode</button>
 </template>
-<style scoped></style>
+<style scoped lang="scss"></style>
