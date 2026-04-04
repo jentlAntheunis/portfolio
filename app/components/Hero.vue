@@ -167,7 +167,7 @@ const { isMobile } = useViewport();
 	background-image: radial-gradient(
 		160% 220% at var(--bar-gradient-center-x) 50%,
 		#{$color-primary-light} 0%,
-		#{$color-primary} 100%
+		#{$color-primary} 75%
 	);
 	height: 5rem;
 	width: 100%;
