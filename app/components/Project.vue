@@ -167,6 +167,17 @@ const techStackWithLogos = computed(() =>
 .project-link {
 	margin-top: 1rem;
 	display: inline-block;
+	padding: 0.5rem 1rem;
+	max-width: fit-content;
+	background: $color-primary;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 4px;
+	transition: background 0.3s;
+
+	&:hover {
+		background: darken($color-primary, 10%);
+	}
 }
 
 .techstack {
