@@ -40,7 +40,7 @@ const scrollingLogos = [...logos, ...logos];
 .logo-track {
 	display: flex;
 	align-items: center;
-	gap: 2.5rem;
+	gap: 1.5rem;
 	width: max-content;
 	animation: marquee 40s linear infinite;
 	will-change: transform;
