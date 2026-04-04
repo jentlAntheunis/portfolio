@@ -1,10 +1,9 @@
 // Color primitives
 $c-gray-light: #eee;
-$c-blue-light: #6994DD;
-$c-blue-dark: #466DD0;
+$c-blue: #466DD0;
 
-$color-primary: $c-blue-dark;
-$color-primary-light: $c-blue-light;
+$color-primary: $c-blue;
+$color-primary-light: lighten($color-primary, 15%);
 
 // Breakpoints (@media queries)
 
