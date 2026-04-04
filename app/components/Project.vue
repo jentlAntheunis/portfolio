@@ -139,6 +139,10 @@ const techStackWithLogos = computed(() =>
 
 .project-image {
 	width: 100%;
+	display: block;
+	aspect-ratio: 16 / 9;
+	object-fit: cover;
+	background: rgba(0, 0, 0, 0.08);
 }
 
 .project-info {
@@ -186,7 +190,7 @@ const techStackWithLogos = computed(() =>
 
 .tech-logo {
 	height: 1.5rem;
-	width: auto;
 	object-fit: contain;
+	display: block;
 }
 </style>

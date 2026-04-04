@@ -51,11 +51,12 @@ const scrollingLogos = [...logos, ...logos];
 	align-items: center;
 	justify-content: center;
 	flex: 0 0 auto;
+	width: clamp(3.5rem, 10vw, 6rem);
 }
 
 .logo-item img {
 	height: clamp(2.25rem, 6vw, 3.5rem);
-	width: auto;
+	width: 100%;
 	object-fit: contain;
 	display: block;
 	filter: saturate(0.9);
