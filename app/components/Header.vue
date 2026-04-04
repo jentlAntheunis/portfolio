@@ -15,7 +15,7 @@ const { isMobile } = useViewport();
 	</div>
 </template>
 <style scoped lang="scss">
-@use "@/assets/css/main.scss" as *;
+@use "@/assets/css/base.scss" as *;
 
 .content-container {
 	display: flex;
