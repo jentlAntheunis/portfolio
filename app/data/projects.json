@@ -1,0 +1,73 @@
+[
+	{
+		"id": "mealmate",
+		"title": "Meal Mate",
+		"image": "/img/projects/mealmate.png",
+		"teamSize": "5",
+		"duration": "9 weeks",
+		"projectType": "School project",
+		"description": [
+			"A full stack CRUD web application for a food-ordering business.",
+			"Challenges: Joining in with an existing team, programming a pre-designed website, dealing with varying amounts of experience."
+		],
+		"url": "https://github.com/TUS-DEVMR/2nd-yr-project-group-2",
+		"urlLabel": "Visit Github repository",
+		"techStack": ["Vue", "Java", "MySQL", "Spring Boot", "SCSS"]
+	},
+	{
+		"id": "harmonaut",
+		"title": "Harmonaut",
+		"image": "/img/projects/harmonaut.png",
+		"teamSize": "Solo",
+		"duration": "3 weeks",
+		"projectType": "Bachelor thesis research project",
+		"description": [
+			"A VR runner game with a musical instrument as the controller. I used Fast Fourier Transform to capture the note played and made short melodies or musical intervals as button presses to navigate moving obstacles."
+		],
+		"url": "https://github.com/jentlAntheunis/ResearchProject_OboeRunner",
+		"urlLabel": "Visit Github repository",
+		"techStack": ["Blender", "Unity"]
+	},
+	{
+		"id": "odegand",
+		"title": "Odegand Poster campaign",
+		"image": "/img/projects/odegand.png",
+		"teamSize": "4",
+		"duration": "3 weeks",
+		"projectType": "School project",
+		"description": [
+			"A project for the Odegand Music festival in Ghent. The idea was to spread posters throughout the city that come to life in 3D when scanned with a phone."
+		],
+		"url": "https://github.com/jentlAntheunis/ResearchProject_OboeRunner",
+		"urlLabel": "Visit Github repository",
+		"techStack": ["Blender", "AR.js", "A-Frame"]
+	},
+	{
+		"id": "darius",
+		"title": "Darius_ Website",
+		"image": "/img/projects/darius.png",
+		"teamSize": "Solo",
+		"duration": "ongoing",
+		"projectType": "Client project",
+		"description": [
+			"I made a website for upcoming singer-songwriter and poet Darius_. I used this as a chance to practice my React knowledge. I still update and manage this website to this day."
+		],
+		"url": "https://dariusmusic.be",
+		"urlLabel": "Visit dariusmusic.be",
+		"techStack": ["React", "Bootstrap"]
+	},
+	{
+		"id": "pebbles",
+		"title": "Pebbles",
+		"image": "/img/projects/pebbles.png",
+		"teamSize": "4",
+		"duration": "3 weeks",
+		"projectType": "School project",
+		"description": [
+			"My first team project. We made a web-app to motivate chronic pain patients to excercise, and to track their mental well-being."
+		],
+		"url": "https://github.com/jentlAntheunis/TeamProject-CronicPain",
+		"urlLabel": "Visit Github repository",
+		"techStack": ["React", "dotnet", "MySQL"]
+	}
+]
