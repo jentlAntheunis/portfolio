@@ -1,11 +1,13 @@
 <script setup>
 import projects from "~/data/projects.json";
+
+const { ready } = useViewport();
 </script>
 <template>
 	<div class="content-container">
 		<h3 id="projects">Projects</h3>
 	</div>
-	<div class="projects">
+	<div v-if="ready" class="projects">
 		<Project v-for="project in projects" :key="project.id" :project="project" />
 	</div>
 </template>

@@ -11,10 +11,10 @@ export const useViewport = () => {
 	const ready = useState<boolean>("viewport-ready", () => false);
 
 	const xxs = computed(() => width.value < BP_XS);
-	const xs = computed(() => width.value < BP_MOBILE);
+	const xs = computed(() => width.value >= BP_XS && width.value < BP_MOBILE);
 	const s = computed(() => width.value >= BP_MOBILE && width.value < BP_TABLET);
 	const m = computed(() => width.value >= BP_TABLET && width.value < BP_DESKTOP);
-	const l = computed(() => width.value >= BP_DESKTOP);
+	const l = computed(() => width.value >= BP_DESKTOP && width.value < BP_LARGE);
 	const xl = computed(() => width.value >= BP_LARGE);
 
 	const isMobile = computed(() => width.value < BP_TABLET);
