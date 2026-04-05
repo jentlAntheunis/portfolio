@@ -57,6 +57,20 @@
 		"techStack": ["React", "Bootstrap"]
 	},
 	{
+		"id": "diorama",
+		"title": "Diorama: Grandma's house",
+		"image": "/img/projects/diorama.png",
+		"teamSize": "Solo",
+		"duration": "1 semester",
+		"projectType": "School project",
+		"description": [
+			"A diorama of a house, made for the 3D Modeling course in DAE. I used Blender to model the house and its surroundings."
+		],
+		"url": "https://sketchfab.com/3d-models/dae-diorama-grandmas-house-0a19af5210b04788b43f999776dae171",
+		"urlLabel": "View model on Sketchfab",
+		"techStack": ["Blender", "Sketchfab"]
+	},
+	{
 		"id": "pebbles",
 		"title": "Pebbles",
 		"image": "/img/projects/pebbles.png",
