@@ -166,6 +166,7 @@ const techStackWithLogos = computed(() =>
 
 .project-link {
 	margin-top: 1rem;
+	margin-bottom: 1rem;
 	display: inline-block;
 	padding: 0.5rem 1rem;
 	max-width: fit-content;
