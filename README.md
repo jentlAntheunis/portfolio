@@ -80,7 +80,7 @@ This project is configured for static deployment on Netlify via [netlify.toml](n
 
 ### Netlify build settings
 
-- Build command: `npm run generate`
+- Build command: `npm run build`
 - Publish directory: `.output/public`
 - Node version: `20`
 
