@@ -21,7 +21,6 @@ h3 {
 	gap: 4rem;
 	flex-direction: column;
 	list-style: none;
-	padding: 0;
-	margin: 0;
+	margin-bottom: 5rem;
 }
 </style>
