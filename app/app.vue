@@ -23,7 +23,6 @@ onMounted(() => {
 		<p>Loading portfolio...</p>
 	</div>
 	<div class="app-shell" :class="{ 'app-shell--loading': !isAppReady }">
-		<bp-shower />
 		<header>
 			<Header />
 		</header>
