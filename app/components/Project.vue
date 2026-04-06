@@ -1,9 +1,41 @@
 <script setup lang="ts">
 const { isMobile } = useViewport();
-const logoModules = import.meta.glob("~/assets/img/logos/*", {
-	eager: true,
-	import: "default",
-}) as Record<string, string>;
+const logoFiles = [
+	"A-Frame_logo.png",
+	"Amazon_Web_Services_Logo.png",
+	"arduino-logo.png",
+	"arjs_logo.png",
+	"blender_logo.png",
+	"bootstrap_logo.png",
+	"CSS-Logo.png",
+	"Docker-Emblem.png",
+	"flask-logo.png",
+	"intellij-idea-logo.png",
+	"Java-Logo.png",
+	"js_logo.png",
+	"matplotlib_log.webp",
+	"Meta_Quest_logo.png",
+	"microsoft-azure-logo.png",
+	"mysql_logo.png",
+	"NET-Framework-Logo.png",
+	"nuxt_logo.png",
+	"p5js_logo.png",
+	"pandas-logo.png",
+	"postgresql-logo.png",
+	"Python-Emblem.png",
+	"Raspberry-Pi-Logo.png",
+	"react-logo.png",
+	"scss-sass-logo.png",
+	"sketchfab-logo.png",
+	"Spring-Boot-Logo.png",
+	"Tailwind-Css-Logo.png",
+	"tensorflow-logo.png",
+	"threeJS_logo.png",
+	"Typescript_logo.png",
+	"Unity-Logo.png",
+	"vscode-logo.png",
+	"vue-logo.png",
+];
 
 const normalizeName = (value: string) => value.toLowerCase().replace(/[^a-z0-9]/g, "");
 
@@ -14,12 +46,11 @@ const logoAliases: Record<string, string> = {
 	typescript: "typescriptlogo",
 };
 
-const logoEntries = Object.entries(logoModules).map(([path, src]) => {
-	const fileName = path.split("/").pop() ?? "";
+const logoEntries = logoFiles.map(fileName => {
 	const fileWithoutExtension = fileName.replace(/\.[^/.]+$/, "");
 
 	return {
-		src,
+		src: `/img/logos/${fileName}`,
 		normalizedName: normalizeName(fileWithoutExtension),
 	};
 });

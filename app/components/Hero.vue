@@ -14,10 +14,10 @@ const { isMobile } = useViewport();
 			<div class="content-container" v-if="!isMobile">
 				<div class="title-text">
 					<h1>Jentl Antheunis</h1>
-					<h2>Full Stack & XR Developer</h2>
+					<h2 class="no-darkmode-text">Full Stack & XR Developer</h2>
 				</div>
 			</div>
-			<img src="~/assets/img/picture.png" alt="Jentl Antheunis" class="profile-image" />
+			<img src="/img/picture.png" alt="Jentl Antheunis" class="profile-image" />
 		</div>
 		<div class="bar full-bleed"></div>
 	</div>
