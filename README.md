@@ -73,3 +73,20 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Deploy To Netlify
+
+This project is configured for static deployment on Netlify via [netlify.toml](netlify.toml).
+
+### Netlify build settings
+
+- Build command: `npm run generate`
+- Publish directory: `.output/public`
+- Node version: `20`
+
+### Deploy steps
+
+1. Push this repository to GitHub.
+2. In Netlify, create a new site from that GitHub repository.
+3. Keep the default settings (Netlify will read `netlify.toml`).
+4. Deploy.
