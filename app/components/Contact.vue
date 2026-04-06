@@ -1,5 +1,5 @@
 <script setup>
-const emailAddress = ["antheunis.jentl", "proton.me"].join("@");
+const emailAddress = ["jentl.antheunis", "gmail.com"].join("@");
 const emailHref = `mailto:${emailAddress}`;
 </script>
 <template>
