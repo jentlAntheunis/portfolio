@@ -208,7 +208,7 @@ const techStackWithLogos = computed(() =>
 	transition: background 0.3s;
 
 	&:hover {
-		background: darken($color-primary, 10%);
+		background: $color-primary-dark;
 	}
 }
 

@@ -49,7 +49,7 @@ const emailHref = `mailto:${emailAddress}`;
 		transition: background-color 0.3s ease;
 
 		&:hover {
-			background-color: darken($color-primary, 10%);
+			background-color: $color-primary-dark;
 		}
 	}
 }

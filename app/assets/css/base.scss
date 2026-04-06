@@ -1,9 +1,12 @@
+@use 'sass:color';
+
 // Color primitives
 $c-gray-light: #eee;
 $c-blue: #466DD0;
 
 $color-primary: $c-blue;
-$color-primary-light: lighten($color-primary, 15%);
+$color-primary-light: color.adjust($color-primary, $lightness: 15%);
+$color-primary-dark: color.adjust($color-primary, $lightness: -10%);
 
 // Breakpoints (@media queries)
 
