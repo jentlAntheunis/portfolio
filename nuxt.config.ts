@@ -17,4 +17,10 @@ export default defineNuxtConfig({
 
 	css: ["@/assets/css/main.scss"],
 	modules: ["@nuxt/icon"],
+	nitro: {
+		preset: "netlify",
+		output: {
+			publicDir: ".output/public",
+		},
+	},
 });
