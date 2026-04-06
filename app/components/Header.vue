@@ -21,6 +21,8 @@ const { isMobile } = useViewport();
 	align-items: center;
 	justify-content: space-between;
 	margin-top: 1rem;
+	position: relative;
+	z-index: 5;
 }
 
 nav ul {

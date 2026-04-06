@@ -18,6 +18,7 @@ const toggleColorMode = () => {
 </script>
 <template>
 	<button
+		type="button"
 		@click="toggleColorMode"
 		class="color-mode-switcher"
 		:aria-label="isDark ? 'Switch to light mode' : 'Switch to dark mode'"
@@ -32,12 +33,15 @@ const toggleColorMode = () => {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
+	min-width: 2.75rem;
+	min-height: 2.75rem;
 	padding: 0.35rem;
 	border: 0;
 	border-radius: 999px;
 	background: transparent;
 	color: var(--color-text);
 	cursor: pointer;
+	touch-action: manipulation;
 }
 
 .color-icon {
