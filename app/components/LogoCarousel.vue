@@ -41,7 +41,7 @@ const logos = logoFiles
 		const nameWithoutExtension = fileName.replace(/\.[^/.]+$/, "");
 
 		return {
-			src: `/img/logos/${fileName}`,
+			src: `/img/tech_logos/${fileName}`,
 			alt: nameWithoutExtension.replace(/[-_]+/g, " "),
 		};
 	})

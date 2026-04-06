@@ -50,7 +50,7 @@ const logoEntries = logoFiles.map(fileName => {
 	const fileWithoutExtension = fileName.replace(/\.[^/.]+$/, "");
 
 	return {
-		src: `/img/logos/${fileName}`,
+		src: `/img/tech_logos/${fileName}`,
 		normalizedName: normalizeName(fileWithoutExtension),
 	};
 });
