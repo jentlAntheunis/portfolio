@@ -11,6 +11,7 @@ const logoFiles = [
 	"flask-logo.png",
 	"intellij-idea-logo.png",
 	"Java-Logo.png",
+  "java-swing-logo.png",
 	"js_logo.png",
 	"matplotlib_log.webp",
 	"Meta_Quest_logo.png",
